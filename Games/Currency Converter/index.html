@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <style>
+        h1 {
+            font-size: 6vh;
+            color: white;
+        }
+        input {
+            font-size: 2vh;
+            padding: 5px;
+        }
+        #fromcountry {
+            font-size: 2vh;
+            padding: 5px;
+        }
+        #tocountry {
+            font-size: 2vh;
+            padding: 5px;
+        }
+        body {
+            background-image: url("imgs/bg.jpg");
+            background-position: right;
+        }
+        .main {
+            width: 600px;
+            padding: 20px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div class="main">
+            <h1>Currency Converter</h1>
+            <div class="form">
+                <input type="number" value="1" id="frominput">
+                <select name="fromCountry" id="fromcountry">
+                    <option value="usd" selected>United States Dollar</option>
+                    <option value="tnr">Indian Rupee</option>
+                    <option value="pound">Pound Streling</option>
+                    <option value="euro">European currency unit</option>
+                </select>
+                <br>
+                <br>
+                <br>
+                <input type="number" value="83.12" id="toinput">
+                <select name="fromCountry" id="tocountry">
+                    <option value="usd">United States Dollar</option>
+                    <option value="inr" selected>Indian Rupee</option>
+                    <option value="pound">Pound Streling</option>
+                    <option value="euro">European currency unit</option>
+                </select>
+            </div>
+        </div>
+    </center>
+</body>
+<script src="script.js"></script>
+
+</html>
