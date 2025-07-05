@@ -10,44 +10,30 @@
 
 <body>
     <div class="main">
-
+        <h3>When You Store data In the below Form then Data will be Show in console..</h3>
         <form action="" id="formselctor">
 
-            <div>
-                <label for="name">Name:</label><br>
-                <input type="text" name="name" id="name">
-            </div>
-            <div>
-                <label for="email">Email:</label><br>
-                <input type="email" name="email" id="email">
-            </div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Name">
 
-            <div>
-                <label for="number">Number:</label><br>
-                <input type="number" name="number" id="number">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email">
 
-            </div>
-            <div>
-                <label for="gender"></label>
-                <input type="radio" name="gender" id="male" value="male">Male
+            <label for="number">Number</label>
+            <input type="number" name="number" id="number" placeholder="Number">
 
-                <input type="radio" name="gender" id="female" value="female">Female
+            <label for="age">Age</label>
+            <select name="age" id="age">
+                <option value="0">Select Age</option>
+                <option value="11">11</option>
+                <option value="15">15</option>
+                <option value="18">18</option>
+                <option value="20">20</option>
+            </select>
 
-                <input type="radio" name="gender" id="other" value="other">Other
-
-            </div>
-            <div> <label for="age">Age:</label>
-                <select name="age" id="age">
-                    <option value="0">Select Age</option>
-                    <option value="11">11</option>
-                    <option value="15">15</option>
-                    <option value="18">18</option>
-                    <option value="20">20</option>
-                </select>
-            </div>
-
-            <div> <input type="submit" value="submit" id="submit"></div>
-        </form>
+            <input type="submit" value="Submit" id="submit">
+    </div>
+    </form>
     </div>
     <script src="script.js"></script>
 </body>
